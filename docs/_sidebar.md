@@ -1,0 +1,7 @@
+- [Inicio](/)
+- [Instalación](instalacion.md)
+- [Configuración](configuracion.md)
+- [API](api.md)
+- [Frontend](frontend.md)
+- [Backend](backend.md)
+- [Base de Datos](database.md)
