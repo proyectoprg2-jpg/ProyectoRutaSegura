@@ -1,0 +1,11 @@
+latitud;longitud;tipo_delito;descripcion_breve;fecha_reporte
+-29.4130;-66.8560;Robo;Robo de motocicleta en zona céntrica;2024-01-15
+-29.4150;-66.8540;Asalto;Asalto a mano armada en comercio;2024-01-18
+-29.4200;-66.8600;Hurto;Hurto de cartera en transporte público;2024-01-22
+-29.4180;-66.8520;Robo;Robo de vehículo estacionado;2024-02-05
+-29.4220;-66.8580;Asalto;Intento de asalto en cajero automático;2024-02-10
+-29.4160;-66.8550;Hurto;Hurto en local comercial;2024-02-15
+-29.4190;-66.8570;Robo;Robo de bicicleta en vía pública;2024-03-01
+-29.4140;-66.8530;Asalto;Asalto a transeúnte en horario nocturno;2024-03-08
+-29.4210;-66.8590;Robo;Robo de accesorios de vehículo;2024-03-12
+-29.4170;-66.8545;Hurto;Hurto en supermercado;2024-03-20
