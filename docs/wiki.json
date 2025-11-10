@@ -1,0 +1,35 @@
+{
+  "name": "RutaSegura",
+  "description": "Sistema de análisis de seguridad vial",
+  "theme": "blue",
+  "sidebar": [
+    {
+      "title": "Inicio",
+      "path": "README.md"
+    },
+    {
+      "title": "Instalación",
+      "path": "instalacion.md"
+    },
+    {
+      "title": "Configuración",
+      "path": "configuracion.md"
+    },
+    {
+      "title": "API Endpoints",
+      "path": "api.md"
+    },
+    {
+      "title": "Frontend",
+      "path": "frontend.md"
+    },
+    {
+      "title": "Backend",
+      "path": "backend.md"
+    },
+    {
+      "title": "Base de Datos",
+      "path": "database.md"
+    }
+  ]
+}

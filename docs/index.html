@@ -2,52 +2,37 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>RutaSegura - Documentación</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RutaSegura - Documentación</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@deepwiki/core@latest/dist/deepwiki.min.css">
   <style>
     :root {
-      --theme-color: #2563eb;
-      --theme-color-dark: #1e40af;
-      --theme-color-light: #3b82f6;
-    }
-    body {
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    }
-    .sidebar {
-      background-color: #1e40af !important;
-    }
-    .sidebar-nav li a {
-      color: white !important;
-    }
-    .sidebar-nav li.active > a {
-      background-color: #2563eb !important;
-      border-right: 4px solid white;
-    }
-    .app-name {
-      color: white !important;
-      font-weight: bold;
+      --primary-color: #2563eb;
+      --sidebar-bg: #1e40af;
+      --header-bg: #3b82f6;
     }
   </style>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
 </head>
 <body>
   <div id="app"></div>
+  <script src="https://cdn.jsdelivr.net/npm/@deepwiki/core@latest/dist/deepwiki.min.js"></script>
   <script>
-    window.$docsify = {
+    new DeepWiki({
+      el: '#app',
       name: 'RutaSegura',
-      repo: 'https://github.com/proyectoprg2-jpg/ProyectoRutaSegura',
-      loadSidebar: true,
-      subMaxLevel: 2,
-      auto2top: true,
-      coverpage: true,
-      search: {
-        placeholder: 'Buscar...',
-        noData: 'Sin resultados',
-        depth: 3
-      }
-    }
+      repo: 'proyectoprg2-jpg/ProyectoRutaSegura',
+      sidebar: [
+        { text: 'Inicio', link: '/' },
+        { text: 'Instalación', link: '/instalacion' },
+        { text: 'Configuración', link: '/configuracion' },
+        { text: 'API Endpoints', link: '/api' },
+        { text: 'Frontend', link: '/frontend' },
+        { text: 'Backend', link: '/backend' },
+        { text: 'Base de Datos', link: '/database' }
+      ],
+      search: true,
+      theme: 'blue'
+    });
   </script>
-  <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
-  <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 </body>
 </html>
