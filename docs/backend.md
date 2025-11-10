@@ -1,6 +1,6 @@
 # Backend
 
-## Estructura
+# Estructura
 ```
 backend/
 ├── config/          # Configuración
@@ -10,7 +10,7 @@ backend/
 └── database/        # Scripts e importación
 ```
 
-## Arquitectura
+# Arquitectura
 
 El backend sigue una arquitectura en capas:
 
@@ -18,28 +18,28 @@ El backend sigue una arquitectura en capas:
 2. Services: Procesan lógica de negocio
 3. Database: Acceso a datos
 
-## Servicios principales
+# Servicios principales
 
-### services/siniestros.py
+# services/siniestros.py
 Gestión de siniestros viales:
 - CRUD completo
 - Filtros avanzados
 - Verificación de permisos
 
-### services/reportes_delito.py
+# services/reportes_delito.py
 Gestión de reportes delictivos:
 - CRUD completo
 - Filtros por tipo
 - Conteo de reportes
 
-### services/reportes.py
+# services/reportes.py
 Análisis y reportes:
 - Índice de seguridad
 - Rutas seguras
 - Zonas peligrosas
 - Estadísticas
 
-## Consultas SQL avanzadas
+# Consultas SQL avanzadas
 
 El sistema incluye:
 - INNER JOIN para relacionar tablas
@@ -47,7 +47,7 @@ El sistema incluye:
 - Subconsultas correlacionadas
 - Funciones de ventana
 
-## Seguridad
+# Seguridad
 
 - Autenticación con bcrypt
 - Hash de contraseñas
