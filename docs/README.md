@@ -2,20 +2,16 @@
 
 Sistema de análisis de seguridad vial para La Rioja.
 
-## Descripción
-
-RutaSegura es una plataforma web que permite registrar y analizar siniestros de tránsito y reportes delictivos para determinar un índice de seguridad por zona.
-
 ## Características principales
 
 - Gestión completa de siniestros viales
 - Registro de reportes delictivos georreferenciados
 - Cálculo de índice de seguridad por avenida
 - Análisis estadístico con múltiples reportes
-- Sistema de autenticación con roles
+- Sistema de autenticación con roles de usuario
 - Interfaz moderna y responsiva
 
-## Tecnologías
+## Tecnologías utilizadas
 
 ### Backend
 - Python 3.10+
@@ -33,4 +29,24 @@ RutaSegura es una plataforma web que permite registrar y analizar siniestros de 
 
 ## Documentación
 
-Navega por el menú lateral para acceder a la documentación completa del proyecto.
+Navega por el menú lateral para acceder a toda la documentación del proyecto.
+
+## Instalación rápida
+```bash
+cd backend
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+uvicorn main:app --reload
+```
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+## Credenciales de acceso
+
+- Admin: admin@rutasegura.com / admin123
+- Editor: editor@rutasegura.com / editor123
+- Consultor: consultor@rutasegura.com / consultor123
